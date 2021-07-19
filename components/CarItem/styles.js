@@ -18,12 +18,22 @@ const styles = StyleSheet.create({
       fontSize: 16,
       color: '#5c5e62'
    },
+   subTitleCTA: {
+      textDecorationLine: 'underline',
+
+   },
    image: {
       width: '100%',
       height: '100%',
       resizeMode: 'cover',
       position: 'absolute'
-   }
+   },
+   btnContainer: {
+      position: 'absolute',
+      bottom: 30,
+      width: '100%'
+   },
+
 });
 
 export default styles;
